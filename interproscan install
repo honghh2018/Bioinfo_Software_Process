@@ -19,3 +19,12 @@ wget ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/data/panther-data-14.1.tar.
 
 ###tutorial website:https://github.com/ebi-pf-team/interproscan/wiki/HowToDownload
 
+###interproscan output result for GO annotation.
+###using interproscan for GO annotation but Blast2go.
+###run xml or tsv
+./interproscan.sh -i transcript.fasta.transdecoder1.pep -f xml
+./interproscan.sh -i transcript.fasta.transdecoder1.pep -f tsv
+###manipulating tsv 
+###extract GO annotation from tsv or xml file
+
+
